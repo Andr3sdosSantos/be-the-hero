@@ -1,0 +1,14 @@
+-> fLUXO do React.
+
+1º O servidor busca por <index.html> e acha a <div id="root">
+
+2º O próximo arquivo que ele busca é o <index.js>, lá tem as importações do 
+  React, ReactDOM e do <App.js> -> também é por lá que é feito a conexão com 
+  o do <App.js> com o <index.html> através da linha: 
+                                                    .document.getElementById('root')
+3º No <App.js> você programa os components que são: funções me .JS que retornam 
+  <html>. Sendo que, esse "html" na verdade é .JSX(JavaScript XML)
+
+4º Os components podem ser criados quando algo vai ser reutilizado dentro do site
+  ou até mesmo algum código que pode ser isolado sem que ele faça diferença no
+  restante da aplicação
